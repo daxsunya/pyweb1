@@ -6,5 +6,22 @@ docs_dir: docs
 site_dir: site
 
 theme:
-  name: null
-  custom_dir: mytheme
+  name: material
+  palette:
+    scheme: default
+    primary: blue
+    accent: blue
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.top
+    - content.tabs
+    - content.code.annotate
+
+extra_css:
+  - assets/css/style.css
+
+extra_javascript:
+  - assets/js/script.js
