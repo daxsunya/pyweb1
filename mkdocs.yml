@@ -1,4 +1,4 @@
-site_name: Первая работа — Отчёт
+site_name: Проектирование и развертывание веб-решений
 site_author: Шаповалова Дарья
 site_description: Отчёт о выполнении первой работы по созданию темы и пайплайна
 
@@ -9,7 +9,7 @@ theme:
   name: material
   palette:
     scheme: default
-    primary: blue
+    primary: green
     accent: blue
   font:
     text: Roboto
