@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="{{ config.site_description }}">
+    <meta name="author" content="{{ config.site_author }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} — {{ config.site_name }}</title>
+
+    <link rel="stylesheet" href="{{ base_url }}/assets/css/style.css">
+</head>
+<body>
+
+<header class="header-custom">
+    <div class="container">
+        <h1>{{ config.site_name }}</h1>
+    </div>
+</header>
+
+<main class="container">
+    {% block content %}
+    {{ page.content }}
+    {% endblock %}
+</main>
+
+<footer class="footer-custom">
+    <div class="container">
+        <p>© {{ config.site_author }}</p>
+    </div>
+</footer>
+
+<script src="{{ base_url }}/assets/js/script.js"></script>
+</body>
+</html>

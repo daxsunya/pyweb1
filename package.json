@@ -1,0 +1,18 @@
+{
+  "name": "pyweb1",
+  "version": "1.0.0",
+  "description": "Ответ на первое задание",
+  "scripts": {
+    "validate-html": "html-validate docs/index.md",
+    "minify-html": "html-minifier --collapse-whitespace --remove-comments -o dist/index.html docs/index.md",
+    "build-css": "postcss mytheme/assets/css/style.css -o dist/style.css"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "cssnano": "^5.0.0",
+    "postcss-cli": "^9.0.0",
+    "html-minifier": "^4.0.0",
+    "html-validate": "^7.0.0"
+  }
+}
